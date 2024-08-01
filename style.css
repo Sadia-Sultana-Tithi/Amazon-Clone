@@ -149,7 +149,7 @@ span{
     background-color: #e2e7e6;
 }
 .box{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 450px ;
     width: 23%;
     background-color: white;
@@ -169,13 +169,112 @@ span{
 .box-content p{
   color: #007185;
 }
+ /* Recommendation Section */
+.recommendation-section {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.line {
+    border: none;
+    height: 1px;
+    background: #ccc; 
+    width: 100vw; 
+}
+.recommendation-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recommendation-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.sign-in-box {
+    background-color: #f3b409a4;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.recommendation-content a {
+    color: #007185; 
+    text-decoration: none;
+}
+
+.recommendation-content a:hover {
+    text-decoration: underline;
+}
+
 /* footer */
+footer {
+    width: 100%;
+    background-color: #e2e7e6;
+    text-align: center;
+}
 .foot-panel1{
     background-color: #37475a;
-    color: black;
+    color: white;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+    text-align: left;
+}
+ul p{
+    font-size: 1.2rem;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(Images/Amazon-Logo-White-Transparent.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 1rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px; 
 }

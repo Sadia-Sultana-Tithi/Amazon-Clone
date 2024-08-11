@@ -14,7 +14,7 @@ This project is a front-end clone of the Amazon website, built using HTML and CS
 * CSS: For styling and layout
 
 ## Screenshot
-![Amazon Clone Screenshot](Images/demo.PNG)
+![Amazon Clone Screenshot](Images/demo.png)
 
 ## Future Enhancements
 * Add JavaScript for interactive features like carousels and modals
